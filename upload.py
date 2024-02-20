@@ -16,9 +16,7 @@ s3_file_cust = 'customer/landing'
 s3_file_setp = 'step_trainer/landing'
 
 #Correct keys for files
-KEY = 'AKIAXYKJTRKDIGMY6YRG'
-SECRET = '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'
-REGION = 'us-east-1'
+
 
 s3 = boto3.resource('s3',
                        region_name="us-east-1",
